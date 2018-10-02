@@ -29,6 +29,7 @@
 	float: left;
 	text-align: center;
 	line-height: 40px;
+
 }
 .Khung hr{
 	width: 100%;
@@ -37,8 +38,9 @@
 .Khung input{
 	display: block;
 	margin-left: 40px;
-	width: 80%;
+	width: 71%;
 	padding: 8px 0px;
+	padding-left: 35px;
 }
 .Khung select.Lop{
 	float: right;
@@ -47,3 +49,29 @@
     width: 7%;
     height: 35px;
 }
+.Khung input.Name{
+	background:  url(https://image.flaticon.com/icons/svg/64/64096.svg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: left 3px top 4px; 
+}
+.Khung input.Password{
+	background:  url(https://image.flaticon.com/icons/svg/64/64104.svg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: left 3px top 4px; 
+}
+.Khung input.Location{
+	background:  url(https://image.flaticon.com/icons/svg/149/149229.svg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: left 3px top 4px; 
+}
+.Khung input.Twitter{
+	background:  url(https://image.flaticon.com/icons/svg/149/149229.svg);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: left 3px top 4px; 
+}
+
+
