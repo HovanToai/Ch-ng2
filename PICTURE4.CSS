@@ -1,0 +1,133 @@
+.sileshow{
+	margin: 0 auto;
+	width: 1000px;
+	height: 300px;
+	background: red;
+
+	/* HAM CHA*/
+	position: relative;
+
+}
+.sileshow .content{
+	width: 100%;
+	height: 100%
+	background: #5410EF;
+}
+.content img{
+	width: 100%;
+	height: 300px;
+}
+.sileshow ul{
+	list-style-type: none;
+}
+.sileshow ul li{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background:#233551;
+
+	/* Ham con*/
+	position:  absolute;
+
+}
+.sileshow ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-decoration: none;;
+	line-height: 80px;
+	text-indent: 9999px;
+
+
+}
+.sileshow li.Next{
+	top: 30%;
+	right: -20px;
+	background: url(https://cdn4.iconfinder.com/data/icons/flat-black/512/next.png);
+	background-size: 70px 70px;
+	background-position: left 5px top 5px;
+	background-repeat: no-repeat;
+
+}
+.sileshow li.Pew{
+	background: url(https://cdn4.iconfinder.com/data/icons/flat-black/512/prev.png);
+	background-size: 70px 70px;
+	background-position: left 5px top 5px;
+	background-repeat: no-repeat;
+
+	top: 30%;
+	left: -20px;
+
+}
+.sileshow .NoiDung{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 300px;
+	background: rgb(142, 149, 160, 0.5);
+    bottom: 0px;
+    right: 0px;
+	
+}
+.sileshow .NoiDung h3.H1{
+ 	text-align: center;
+    font-size: 38px;
+    margin-bottom: -3px;
+    font-family: arial;
+    font-weight: 100;
+        color: #fff;
+
+}
+.sileshow .NoiDung p.P1{
+	text-align: center;
+	line-height: 6px;
+	 font-family: arial;
+	     color: #fff;
+}
+.sileshow .NoiDung h4.H2{
+	float: left;
+	width: 150px;
+	height: 40px;
+	margin-left: 323px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right:  1px solid #ccc;
+    border-top: 1px solid #ccc;
+    line-height: 40px;
+    font-family: arial;
+    font-size: 11px;
+    color: #fff;
+}
+.sileshow .NoiDung h4.H3{
+	float: left;
+	width: 150px;
+	height: 40px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right:  2px solid #ccc;
+    border-top: 2px solid #ccc;
+    line-height: 40px;
+    margin-left: 15px;
+    font-family: arial;
+    font-size: 11px;
+    color: #fff;
+}
+.sileshow .NoiDung h4.H4{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border-right:  2px solid #ccc;
+    border-top: 2px solid #ccc;	
+    margin-left: 404px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: -8px;
+    font-family: arial;
+    font-size: 11px;
+    color: #fff;
+}
